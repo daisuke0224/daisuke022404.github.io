@@ -1,0 +1,215 @@
+@charset "UTF-8";
+/* CSSのリセット（消さないでください） */
+
+/* ここからcssを書いていきましょう */
+
+a {
+    text-decoration: none;
+  }
+
+header{
+    height: 60px;
+    width: 100%;
+    padding-top:10px;
+    border-bottom: 2px solid #dee7ec;
+    background-color: white;
+}
+
+.container{
+    width:1170px;
+    margin:0 auto;
+}
+
+.header-left{
+    float: left;
+}
+
+.logo{
+    width: 180px;
+}
+
+.header-right{
+    float: right;
+}
+
+.login{
+    display: inline-block;
+    padding: 15px 40px;
+    background-color: aquamarine;
+    border-radius: 25px;
+    color: white;
+    text-decoration: none;
+}
+
+.top-wrapper{
+ background-image: url(topBanner_img.png);
+ background-repeat: no-repeat;
+ background-size: 50%;
+ background-position: right bottom;
+ height: 500px
+}
+
+article{
+    padding:100px 0 0 100px  
+}
+
+main{
+    height: 900px;
+    background-color: #dddddd;
+}
+
+.mains{
+  padding:100px 0 100px 200px
+}
+
+.top-logo{
+    color: green;
+}
+
+.sub-logo{
+    opacity: 0.5;
+}
+
+
+
+lastmassage{
+    background-color: aquamarine;
+}
+
+.massage-warapper{
+    background-color: #dbedf0;
+ background-image: url(bottomBanner.png);
+ background-repeat: no-repeat;
+ background-size: 55%;
+ background-position: 500px 0;
+ height: 500px
+}
+
+.submassage{
+    margin-left: 100px;
+    padding-top:100px
+}
+
+
+
+.blogs{
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom:30px
+}
+
+.blogslogo{
+    color:#92cb97
+}
+
+.sub-blogmain{
+    opacity: 0.7;
+}
+
+
+.wrapper-blog{
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(2,minmax(400px,1fr));
+}
+
+.item{  
+    display: inline-block;
+}
+
+.item:hover{
+    opacity: 1;
+}
+
+img.example1 {
+    width: 100%;
+    height:100%
+    align-items: center;
+  }
+
+.ttl{
+    background-color: #193278;
+    color: white;
+    padding: 5px 10px;
+    margin-right:160px
+}
+
+.ttls{
+    background-color: #ffbf1f;
+    color: white;
+    padding: 5px 10px;
+    margin-right:160px
+}
+
+.day{
+    float: right;
+    opacity: 0.7;
+}
+
+.btn{
+    padding:0 40%;
+}
+
+.more{
+    display: inline-block;
+    padding: 15px 100px;
+    background-color: aquamarine;
+    border-radius: 25px;
+    color: white;
+}
+
+
+
+
+
+
+.footer05 {
+    padding: 50px;
+   }
+  
+   .footer05 a {
+    color: #808080;
+    text-decoration: none;
+   }
+   
+   .footer05 .wrap {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   }
+   .footer05 .wrap h3 {
+    margin: 0 0 10px 0;
+    padding: 0;
+   }
+
+   .footer05 .wrap .box {
+    width: 20%;
+   }
+   .footer05 .wrap .box ul {
+    margin: 0;
+    padding: 0 0 10px 0;
+    list-style: none;
+   }
+
+   
+   @media only screen and (max-width: 599px) {
+   .footer05 .wrap {
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+   }
+   .footer05 .wrap h3 {
+    border: none;
+   }
+   .footer05 .wrap .box {
+    width: 100%;
+   }
+   .footer05 .wrap .box ul {
+    border-top: 1px #c4c4c4 solid;
+   }
+   .footer05 .wrap .box ul li a {
+    display: block;
+    padding: 5px 15px;
+    border-bottom: 1px #c4c4c4 solid;
+   }
